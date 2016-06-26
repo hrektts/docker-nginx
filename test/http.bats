@@ -2,7 +2,7 @@
 
 @test "initialize" {
     run docker run --label bats-type="test" --name bats-nginx -p 80:80 -d \
-        hrektts/nginx
+        hrektts/nginx:bats
     [ "${status}" -eq 0 ]
     until curl --head localhost
     do
