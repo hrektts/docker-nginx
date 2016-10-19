@@ -1,4 +1,4 @@
-FROM hrektts/debian:8.5.20160626
+FROM hrektts/debian:8.6.20160926
 MAINTAINER mps299792458@gmail.com
 
 ENV NGINX_VERSION 1.10.1-1~dotdeb+8.2
