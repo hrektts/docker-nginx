@@ -1,7 +1,7 @@
 FROM hrektts/debian:8.6.20160926
 MAINTAINER mps299792458@gmail.com
 
-ENV NGINX_VERSION 1.10.1-1~dotdeb+8.2
+ENV NGINX_VERSION 1.10.2-1~dotdeb+8.1
 
 RUN apt-key adv --keyserver hkp://pgp.mit.edu:80 --recv-keys E9C74FEEA2098A6E \
  && echo "deb http://packages.dotdeb.org jessie all" \
